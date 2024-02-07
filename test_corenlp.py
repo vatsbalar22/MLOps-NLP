@@ -1,4 +1,6 @@
-from nlplogic.corenlp import get_phrases,get_text_blob,summarize_wikipedia,search_wikipedia
+from nlplogic.corenlp import get_phrases
+
 
 def test_get_phrases():
-    assert 'golden state' in get_phrases('Golden State Warriors')
+    assert "golden state" in get_phrases("Golden State Warriors")
+
